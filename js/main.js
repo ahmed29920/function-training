@@ -218,7 +218,7 @@
 	};
 
 
-	
+	//end
 	$(function(){
 		mobileMenuOutsideClick();
 		offcanvasMenu();
