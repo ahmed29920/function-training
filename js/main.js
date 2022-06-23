@@ -229,9 +229,6 @@
 		loaderPage();
 		counterWayPoint();
 		counter();
-		parallax();
-		sliderMain();
-		testimonialCarousel();
 	});
 
 

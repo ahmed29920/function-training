@@ -1090,6 +1090,19 @@ team-thumb
     padding-right: 0;
   }
 
+  .our-Portfolio .portfolio-link button:hover, .our-Portfolio .links-container .portfolio-link .frs-btn {
+    height: 3.4rem;
+    width: 100%;
+  }
+
+  .our-Portfolio .portfolio-link {
+    height: 4rem;
+  }
+  .our-Portfolio .links-container .portfolio-link button {
+    font-size: smaller;
+    padding: 2%;
+  }
+
   .our-Portfolio ul {
     padding: 0;
   }
