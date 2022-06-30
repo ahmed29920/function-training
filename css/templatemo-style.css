@@ -1084,7 +1084,61 @@ team-thumb
   padding-left: 10%;
   padding-right: 10%;
 }
+.see-btn {
+  margin-top: 2rem;
+}
 @media only screen and (max-width: 425px) {
+  #about{
+    font-size: 9px;
+  }
+  .about-data{
+    padding: 7px;
+  }
+  .feature-thumb {
+    padding: 2rem 7px;
+  }
+  .feature-thumb span {
+    width: 70px;
+    height: 40px;
+    line-height: 43px;
+  }
+  .team-data {
+    padding: 4px;
+    height: 228px;
+  }
+  .comp-data {
+    padding: 4px;
+    height: 100px;
+  }
+  .see-btn {
+    margin-top: 4rem; !important;
+    padding: 4px 12px;
+    font-size: 11px;
+  }
+  .team-info {
+    padding: 9px 3px;
+    font-size: 10px;
+  }
+  .fh5co-counters {
+    padding: 2em 0;
+  }
+  .num-data{
+    height: 200px;
+  }
+  .feature-thumb, .about-info{
+    margin-bottom: 0;
+  }
+  .newsletter-form input[type="submit"] {
+    width: 100%;
+  }
+
+  .social-icon li a {
+    font-size: 13px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+  }
+
   .our-Portfolio .portfolio-links {
     padding-left: 0;
     padding-right: 0;
@@ -1105,6 +1159,119 @@ team-thumb
 
   .our-Portfolio ul {
     padding: 0;
+  }
+
+  .custom-navbar .page-logo {
+    float: left;
+    margin-left: 12px;
+    height: 5rem;
+    width: 5rem;
+  }
+  .fh5co-counters .fh5co-counter {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  #home h3 {
+    font-size: 14px;
+  }
+
+  .entry-form {
+    border-radius: 0;
+    padding: 2em;
+    max-width: 100%;
+    max-height: 100%;
+    width: inherit;
+    height: inherit;
+  }
+
+}
+@media only screen and (max-width: 375px) {
+  section .section-title h2{
+    font-size: 25px;
+  }
+  .fh5co-counters .fh5co-counter {
+    font-size: 30px;
+  }
+
+  .team-data {
+    padding: 4px;
+    height: 200px;
+  }
+  .comp-data {
+    padding: 4px;
+    height: 80px;
+  }
+  .see-btn {
+    padding: 4px 10px;
+    font-size: 11px;
+  }
+  .team-info {
+    padding: 9px 3px;
+    font-size: 10px;
+  }
+  .footer-info h2 {
+    font-size: 12px;
+  }
+  footer address p {
+    font-size: 10px;
+  }
+  .newsletter-form .form-control {
+    font-size: 9px;
+  }
+  .newsletter-form input[type="submit"] {
+    height: 34px;
+  }
+  footer .social-icon {
+    font-size: 8px;
+  }
+  .footer_menu ul {
+    font-size: 8px;
+  }
+  .copyright-text p{
+    font-size: 10px;
+  }
+  footer {
+    padding: 16px 0;
+  }
+  .first-footer{
+    height: 261px;
+  }
+}
+@media only screen and (max-width: 375px) {
+
+
+  .footer-info h2 {
+    font-size: 12px;
+  }
+  footer address p {
+    font-size: 10px;
+  }
+  .newsletter-form .form-control {
+    font-size: 9px;
+  }
+  .newsletter-form input[type="submit"] {
+    height: 34px;
+  }
+  footer .social-icon {
+    font-size: 8px;
+  }
+  .footer_menu ul {
+    font-size: 8px;
+  }
+  .copyright-text p{
+    font-size: 10px;
+  }
+  footer {
+    padding: 16px 0;
+    height: 348px;
+  }
+  .first-footer{
+    height: 261px;
   }
 }
 .our-Portfolio .portfolio-link  {
@@ -1182,3 +1349,82 @@ team-thumb
   color: #fff;
   margin-bottom: 3%;
 }
+/*   comp */
+.comp-thumb{
+  margin-top: 2rem;
+}
+@media only screen and (max-width: 768px) {
+  .comp-thumb{
+    /*margin-top: 0.5rem;*/
+    height: 185px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .comp-thumb{
+    /*margin-top: 0.5rem;*/
+    height: 135px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .comp-thumb{
+    /*margin-top: 0.5rem;*/
+    height: 111px;
+  }
+}
+.about-inf{
+  margin-top: 30px;
+}
+.about{
+  height: auto;
+}
+@media only screen and (max-width: 786px) {
+  .about-section{
+    padding: 15px;
+  }
+  .entry-form {
+    margin-top: 20px;
+    width: 284px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .about-section{
+    padding: 10px;
+  }
+  .about-inf{
+    margin-top: 10px;
+  }
+  .about-inf h2{
+    font-size:medium;
+  }
+  .about-inf h3{
+    font-size:medium;
+  }
+  .entry-form {
+    border-radius: 100%;
+    margin-top: 20px;
+    width: 220px;
+    height: 220px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .about-section{
+    padding: 5px;
+  }
+  .about-inf{
+    margin-top: 10px;
+  }
+  .about-inf h2{
+    font-size:small;
+  }
+  .about-inf h3{
+    font-size:small;
+  }
+  .entry-form {
+    border-radius: 100%;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+  }
+}
+
