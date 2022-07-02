@@ -118,9 +118,9 @@ https://templatemo.com/tm-516-known
   }
 
   .entry-form {
-    /*background: #252020;*/
-    background-image: url("../images/bg-section.jpg");
-    background-position-y: center;
+    background: #252020;
+/*     background-image: url("../images/bg-section.jpg"); */
+/*     background-position-y: center; */
     border-radius: 100%;
     text-align: center;
     padding: 6em;
