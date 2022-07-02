@@ -80,7 +80,7 @@ https://templatemo.com/tm-516-known
   }
 
   a:hover, a:active, a:focus {
-    color: #29ca8e;
+    color: #6b36ce;
     outline: none;
   }
 
@@ -118,7 +118,9 @@ https://templatemo.com/tm-516-known
   }
 
   .entry-form {
-    background: #252020;
+    /*background: #252020;*/
+    background-image: url("../images/bg-section.jpg");
+    background-position-y: center;
     border-radius: 100%;
     text-align: center;
     padding: 6em;
@@ -820,7 +822,7 @@ https://templatemo.com/tm-516-known
   }
 
   .newsletter-form input[type="submit"]:hover {
-    background: #29ca8e;
+    background: #6b36ce;
     border-color: transparent;
   }
 
@@ -851,7 +853,7 @@ https://templatemo.com/tm-516-known
 
   .social-icon li a {
     border-radius: 100px;
-    color: #29ca8e;
+    color: #6b36ce;
     font-size: 15px;
     width: 35px;
     height: 35px;
@@ -1087,7 +1089,11 @@ team-thumb
 .see-btn {
   margin-top: 2rem;
 }
+#freelancers .team-thumb , #team .team-thumb{
+  height: 460px;
+}
 @media only screen and (max-width: 425px) {
+
   #about{
     font-size: 9px;
   }
@@ -1145,16 +1151,20 @@ team-thumb
   }
 
   .our-Portfolio .portfolio-link button:hover, .our-Portfolio .links-container .portfolio-link .frs-btn {
-    height: 3.4rem;
+    height: 3.1rem;
     width: 100%;
+    border-radius: 3%;
   }
 
   .our-Portfolio .portfolio-link {
     height: 4rem;
   }
   .our-Portfolio .links-container .portfolio-link button {
-    font-size: smaller;
+    font-size: medium;
     padding: 2%;
+  }
+  .lng-btn li button{
+    width: 109% !important;
   }
 
   .our-Portfolio ul {
@@ -1169,6 +1179,12 @@ team-thumb
   }
   .fh5co-counters .fh5co-counter {
     font-size: 32px;
+  }
+  #freelancers .team-thumb , #team .team-thumb{
+    height: 230px;
+  }
+  #freelancers .team-thumb h3, #team .team-thumb h3{
+    font-size: medium;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1214,6 +1230,24 @@ team-thumb
     padding: 9px 3px;
     font-size: 10px;
   }
+  #freelancers .team-thumb{
+    height: 211px;
+    /*margin-bottom: 5%;*/
+  }
+  #freelancers .see-btn{
+    margin-top: 3%;
+  }
+  .team-thumb h3 {
+    font-size: small;
+  }
+
+  #team .team-thumb{
+    height: 200px;
+  }
+  #team .team-thumb h3 {
+    font-size: larger;
+  }
+
   .footer-info h2 {
     font-size: 12px;
   }
@@ -1428,3 +1462,24 @@ team-thumb
   }
 }
 
+/*back to top btn*/
+.back-top-btn{
+
+  position: fixed;
+  font-size: 2em;
+  background-color: #6b36ce;
+  color: #fff;
+  border-radius: 50%;
+  padding: 7px;
+  padding-bottom: 8px;
+  right: 1%;
+  bottom: 1%;
+  cursor: pointer;
+  display: none;
+  transition: 0.5s;
+  z-index: 999;
+}
+.back-top-btn:hover{
+  background-color: #6b36ce;
+  color: #000;
+}
