@@ -1,23 +1,25 @@
 
 //-------start portfolio
 $(function(){
-    $("#app-button").click(function(){
+    $("#media-button").click(function(){
         
-        $("#app").attr("id","app-v")
+        $("#media").attr("id","media-v")
         $("#all").attr("id","all-hiden")
-        $("#card-v").attr("id","card")
+        $("#business-v").attr("id","business")
         $("#web-v").attr("id","web")
+        $("#game-v").attr("id","game")
     });
 
 });
 
 $(function(){
-    $("#card-button").click(function(){
+    $("#business-button").click(function(){
         
-        $("#card").attr("id","card-v")
+        $("#business").attr("id","business-v")
         $("#all").attr("id","all-hiden")
-        $("#app-v").attr("id","app")
+        $("#media-v").attr("id","media")
         $("#web-v").attr("id","web")
+        $("#game-v").attr("id","game")
     });
 
 });
@@ -27,22 +29,35 @@ $(function(){
         
         $("#web").attr("id","web-v")
         $("#all").attr("id","all-hiden")
-        $("#app-v").attr("id","app")
-        $("#card-v").attr("id","card")
+        $("#media-v").attr("id","media")
+        $("#business-v").attr("id","business")
+        $("#game-v").attr("id","game")
     });
 });
+
+$(function(){
+    $("#game-button").click(function(){
+
+        $("#game").attr("id","game-v")
+        $("#all").attr("id","all-hiden")
+        $("#media-v").attr("id","media")
+        $("#web-v").attr("id","web")
+        $("#business-v").attr("id","business")
+    });
+});
+
+
 
 $(function(){    
     $("#all-button").click(function(){
-      
-
         $("#all-hiden").attr("id","all")
-        $("#app-v").attr("id","app")
-        $("#card-v").attr("id","card")
+        $("#media-v").attr("id","media")
         $("#web-v").attr("id","web")
-
+        $("#business-v").attr("id","business")
+        $("#game-v").attr("id","game")
     });
 });
+
 //btn color
 $(function(){    
     $(".portfolio-btn").click(function(){

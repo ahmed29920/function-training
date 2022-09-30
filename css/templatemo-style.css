@@ -119,7 +119,7 @@ https://templatemo.com/tm-516-known
 
   .entry-form {
     /*background: #252020;*/
-    background-image: url("../images/bg-section.jpg");
+    background-image: url("../images/logo home.png");
     background-position-y: center;
     border-radius: 100%;
     text-align: center;
@@ -681,7 +681,7 @@ https://templatemo.com/tm-516-known
 
   .tst-author span {
     color: #808080;
-    font-size: 14px;
+    font-size: 12px;
   }
 
 
@@ -1086,14 +1086,30 @@ team-thumb
   padding-left: 10%;
   padding-right: 10%;
 }
+.links-container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
 .see-btn {
   margin-top: 2rem;
 }
 #freelancers .team-thumb , #team .team-thumb{
   height: 460px;
 }
-@media only screen and (max-width: 425px) {
 
+@media only screen and (max-width: 425px) {
+  #all .portfolio-img h6 {
+    font-size: x-small;
+  }
+  #all .portfolio-img p {
+    display: none;
+  }
+  .links-container {
+    display: block;
+
+  }
   #about{
     font-size: 9px;
   }
@@ -1152,9 +1168,10 @@ team-thumb
 
   .our-Portfolio .portfolio-link button:hover, .our-Portfolio .links-container .portfolio-link .frs-btn {
     height: 3.1rem;
-    width: 100%;
-    border-radius: 3%;
+    border-radius: 7%;
+    width: max-content;
   }
+
 
   .our-Portfolio .portfolio-link {
     height: 4rem;
@@ -1185,6 +1202,11 @@ team-thumb
   }
   #freelancers .team-thumb h3, #team .team-thumb h3{
     font-size: medium;
+  }
+}
+@media only screen and (min-width: 320px){
+  .name-head{
+    font-size: 8px !important;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1319,6 +1341,7 @@ team-thumb
   border: none;
   padding: 10%;
   transition: 0.5s;
+  width: max-content;
 }
 
 .our-Portfolio .portfolio-link button:hover , .our-Portfolio .links-container .portfolio-link .selcted-btn {
@@ -1335,13 +1358,17 @@ team-thumb
   display: none;
 }
 
-#app {
-  display: none;
-}
-#card {
-  display: none;
-}
 #web {
+  display: none;
+}
+#media {
+  display: none;
+}
+#business {
+  display: none;
+}
+
+#game {
   display: none;
 }
 
@@ -1419,6 +1446,7 @@ team-thumb
     margin-top: 20px;
     width: 284px;
     height: 300px;
+    background-image: url(../images/logo-2.jpg);
   }
 }
 @media only screen and (max-width: 425px) {
@@ -1435,10 +1463,11 @@ team-thumb
     font-size:medium;
   }
   .entry-form {
-    border-radius: 100%;
     margin-top: 20px;
     width: 220px;
     height: 220px;
+    background-image: url(../images/logo-3.jpg);
+
   }
 }
 @media only screen and (max-width: 375px) {
@@ -1455,10 +1484,10 @@ team-thumb
     font-size:small;
   }
   .entry-form {
-    border-radius: 100%;
     margin-top: 20px;
     width: 150px;
     height: 150px;
+    background-image: url(../images/logo-4.jpg);
   }
 }
 
@@ -1483,3 +1512,4 @@ team-thumb
   background-color: #6b36ce;
   color: #000;
 }
+
