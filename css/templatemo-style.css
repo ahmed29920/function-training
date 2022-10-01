@@ -1086,14 +1086,30 @@ team-thumb
   padding-left: 10%;
   padding-right: 10%;
 }
+.links-container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
 .see-btn {
   margin-top: 2rem;
 }
 #freelancers .team-thumb , #team .team-thumb{
   height: 460px;
 }
-@media only screen and (max-width: 425px) {
 
+@media only screen and (max-width: 425px) {
+  #all .portfolio-img h6 {
+    font-size: x-small;
+  }
+  #all .portfolio-img p {
+    display: none;
+  }
+  .links-container {
+    display: block;
+
+  }
   #about{
     font-size: 9px;
   }
@@ -1152,9 +1168,10 @@ team-thumb
 
   .our-Portfolio .portfolio-link button:hover, .our-Portfolio .links-container .portfolio-link .frs-btn {
     height: 3.1rem;
-    width: 100%;
-    border-radius: 3%;
+    border-radius: 7%;
+    width: max-content;
   }
+
 
   .our-Portfolio .portfolio-link {
     height: 4rem;
@@ -1185,6 +1202,11 @@ team-thumb
   }
   #freelancers .team-thumb h3, #team .team-thumb h3{
     font-size: medium;
+  }
+}
+@media only screen and (min-width: 320px){
+  .name-head{
+    font-size: 8px !important;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1319,6 +1341,7 @@ team-thumb
   border: none;
   padding: 10%;
   transition: 0.5s;
+  width: max-content;
 }
 
 .our-Portfolio .portfolio-link button:hover , .our-Portfolio .links-container .portfolio-link .selcted-btn {
@@ -1335,13 +1358,17 @@ team-thumb
   display: none;
 }
 
-#app {
-  display: none;
-}
-#card {
-  display: none;
-}
 #web {
+  display: none;
+}
+#media {
+  display: none;
+}
+#business {
+  display: none;
+}
+
+#game {
   display: none;
 }
 
@@ -1485,3 +1512,4 @@ team-thumb
   background-color: #6b36ce;
   color: #000;
 }
+
